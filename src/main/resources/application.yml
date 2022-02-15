@@ -1,0 +1,9 @@
+quarkus:
+  rest-client:
+    auth:
+      url: ${auth-url:http://localhost:8081}
+    beverage:
+      url: ${beverage-url:http://localhost:8081}
+
+greeting:
+  message: "hello"
