@@ -5,7 +5,6 @@ import com.github.tomakehurst.wiremock.WireMockServer
 import com.github.tomakehurst.wiremock.client.WireMock
 import com.github.tomakehurst.wiremock.matching.ContainsPattern
 import com.github.tomakehurst.wiremock.matching.RequestPatternBuilder
-import com.github.tomakehurst.wiremock.matching.StringValuePattern
 import io.github.simonscholz.adapter.auth.Token
 import io.github.simonscholz.adapter.beverage.Beverage
 import io.github.simonscholz.wiremock.InjectWireMock
